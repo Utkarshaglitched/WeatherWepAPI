@@ -287,6 +287,23 @@ body {
         border: solid 3px black;
         border-radius: 2vh;
     }
+    50% {
+        height: 4vh;
+        width: 0vw;
+        position: absolute;
+        padding-left: 50px;
+        left: 31.5vh;
+        top: 50vw;
+        z-index: 1;
+        background-image: url("WETimages/search.svg");
+        background-position: 1vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-size: 3vh;
+        font-weight: 600;
+        border: solid 3px black;
+        border-radius: 2vh;
+    }
 
     75% {
         height: 3vh;
@@ -306,23 +323,6 @@ body {
         border-radius: 2vh;
     }
 
-    50% {
-        height: 4vh;
-        width: 0vw;
-        position: absolute;
-        padding-left: 50px;
-        left: 31.5vh;
-        top: 50vw;
-        z-index: 1;
-        background-image: url("WETimages/search.svg");
-        background-position: 1vh;
-        background-size: contain;
-        background-repeat: no-repeat;
-        font-size: 3vh;
-        font-weight: 600;
-        border: solid 3px black;
-        border-radius: 2vh;
-    }
 
 
     100% {
