@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url("/WETimages/blue-wet-background.jpg");
+    background-image: url("https://github.com/Utkarshaglitched/WeatherWepAPI/blob/main/WETimages/blue-wet-background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -91,7 +91,7 @@ body {
     position: absolute;
     left: 40vw;
     bottom: 39vh;
-    background-image: url("/WETimages/celsius.png");
+    background-image: url("https://github.com/Utkarshaglitched/WeatherWepAPI/blob/main/WETimages/celsius.png");
     background-size: cover;
     background-repeat: no-repeat;
     /* display: inline-block; */
@@ -144,7 +144,7 @@ body {
     top: 0.4vh;
     left: 1vw;
     display: inline-block;
-    background-image: url("/WETimages/search.svg");
+    background-image: url("https://github.com/Utkarshaglitched/WeatherWepAPI/blob/main/WETimages/search.svg");
     background-size: contain;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -167,7 +167,7 @@ body {
         left: 31.5vh;
         top: 67vw;
         z-index: 1;
-        background-image: url("/WETimages/search.svg");
+        background-image: url("https://github.com/Utkarshaglitched/WeatherWepAPI/blob/main/WETimages/search.svg");
         background-position: 1vh;
         background-size: contain;
         background-repeat: no-repeat;
@@ -186,7 +186,7 @@ body {
         left: 31.5vh;
         top: 58vw;
         z-index: 1;
-        background-image: url("/WETimages/search.svg");
+        background-image: url("https://github.com/Utkarshaglitched/WeatherWepAPI/blob/main/WETimages/search.svg");
         background-position: 1vh;
         background-size: contain;
         background-repeat: no-repeat;
@@ -204,7 +204,7 @@ body {
         left: 31.5vh;
         top: 50vw;
         z-index: 1;
-        background-image: url("/WETimages/search.svg");
+        background-image: url("https://github.com/Utkarshaglitched/WeatherWepAPI/blob/main/WETimages/search.svg");
         background-position: 1vh;
         background-size: contain;
         background-repeat: no-repeat;
@@ -222,7 +222,7 @@ body {
         left: 20.5vh;
         top: 46vw;
         z-index: 1;
-        background-image: url("/WETimages/search.svg");
+        background-image: url("https://github.com/Utkarshaglitched/WeatherWepAPI/blob/main/WETimages/search.svg");
         background-position: 1vh;
         background-size: contain;
         background-repeat: no-repeat;
@@ -240,7 +240,7 @@ body {
         left: 6.5vh;
         top: 46vw;
         z-index: 1;
-        background-image: url("/WETimages/search.svg");
+        background-image: url("https://github.com/Utkarshaglitched/WeatherWepAPI/blob/main/WETimages/search.svg");
         background-position: 1vh;
         background-size: contain;
         background-repeat: no-repeat;
@@ -260,7 +260,7 @@ body {
         left: 6.5vh;
         top: 46vw;
         z-index: 1;
-        background-image: url("/WETimages/search.svg");
+        background-image: url("https://github.com/Utkarshaglitched/WeatherWepAPI/blob/main/WETimages/search.svg");
         background-position: 1vh;
         background-size: contain;
         background-repeat: no-repeat;
@@ -278,7 +278,7 @@ body {
         left: 20.5vh;
         top: 46vw;
         z-index: 1;
-        background-image: url("/WETimages/search.svg");
+        background-image: url("https://github.com/Utkarshaglitched/WeatherWepAPI/blob/main/WETimages/search.svg");
         background-position: 1vh;
         background-size: contain;
         background-repeat: no-repeat;
@@ -296,7 +296,7 @@ body {
         left: 31.5vh;
         top: 58vw;
         z-index: 1;
-        background-image: url("/WETimages/search.svg");
+        background-image: url("https://github.com/Utkarshaglitched/WeatherWepAPI/blob/main/WETimages/search.svg");
         background-position: 1vh;
         background-size: contain;
         background-repeat: no-repeat;
@@ -314,7 +314,7 @@ body {
         left: 31.5vh;
         top: 50vw;
         z-index: 1;
-        background-image: url("/WETimages/search.svg");
+        background-image: url("https://github.com/Utkarshaglitched/WeatherWepAPI/blob/main/WETimages/search.svg");
         background-position: 1vh;
         background-size: contain;
         background-repeat: no-repeat;
@@ -333,7 +333,7 @@ body {
         left: 31.5vh;
         top: 67vw;
         z-index: 1;
-        background-image: url("/WETimages/search.svg");
+        background-image: url("https://github.com/Utkarshaglitched/WeatherWepAPI/blob/main/WETimages/search.svg");
         background-position: 1vh;
         background-size: contain;
         background-repeat: no-repeat;
@@ -379,7 +379,7 @@ body {
 }
 
 #sunrise {
-    background-image: url("/WETimages/sunrise.svg");
+    background-image: url("https://github.com/Utkarshaglitched/WeatherWepAPI/blob/main/WETimages/sunrise.svg");
     background-position: left;
     background-size: contain;
     background-repeat: no-repeat;
@@ -397,7 +397,7 @@ body {
 }
 
 #sunset {
-    background-image: url("/WETimages/sunset.svg");
+    background-image: url("https://github.com/Utkarshaglitched/WeatherWepAPI/blob/main/WETimages/sunset.svg");
     background-position: left;
     background-size: contain;
     background-repeat: no-repeat;
@@ -413,7 +413,7 @@ body {
     left: 14vw;
 }
 #Humidity {
-    background-image: url("/WETimages/humidity.svg");
+    background-image: url("/https://github.com/Utkarshaglitched/WeatherWepAPI/blob/main/WETimages/humidity.svg");
     background-position: left;
     background-size: contain;
     background-repeat: no-repeat;
@@ -430,7 +430,7 @@ body {
     left: 24vw;
 }
 #SeaLevel {
-    background-image: url("/WETimages/sea-level.svg");
+    background-image: url("https://github.com/Utkarshaglitched/WeatherWepAPI/blob/main/WETimages/sea-level.svg");
     background-position: left;
     background-size: contain;
     background-repeat: no-repeat;
