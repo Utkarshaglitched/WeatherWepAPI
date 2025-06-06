@@ -1,0 +1,449 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: url("/WETimages/blue-wet-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#temcontainer {
+    height: 45vh;
+    width: 85vw;
+    border: black dotted 3px;
+    border-radius: 3vh;
+    position: relative;
+    left: 7vw;
+    top: 28vh;
+    /* background-color: rgb(51, 87, 179); */
+
+}
+
+#temperature {
+    height: 15vh;
+    width: 30vw;
+    position: relative;
+    display: inline-block;
+    left: 3vh;
+    bottom: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vh;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    /* background-color: aqua; */
+}
+
+#Emoji {
+    height: 16vh;
+    width: 30vw;
+    position: relative;
+    left: 0vh;
+    bottom: 17vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15vh;
+    /* background-color: aqua; */
+    /* display: inline-block; */
+    /* font-weight: 700; */
+}
+
+#cityname {
+    height: 4vh;
+    width: 61vw;
+    position: absolute;
+    padding-left: 50px;
+    left: 6.5vh;
+    top: 46vw;
+    z-index: 1;
+    background-image: url("/WETimages/search.svg");
+    background-position: 1vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 3vh;
+    font-weight: 600;
+    border: solid 3px black;
+    border-radius: 2vh;
+    display: none;
+}
+
+#CloudConsidtion {
+    height: 4vh;
+    width: 30vw;
+    position: absolute;
+    left: 12vw;
+    top: 48vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#degree {
+    height: 4vh;
+    width: 4vh;
+    display: none;
+    position: absolute;
+    left: 40vw;
+    bottom: 39vh;
+    background-image: url("/WETimages/celsius.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* display: inline-block; */
+    /* background-color: aqua; */
+}
+
+.detailscontainer {
+    height: 12vh;
+    width: 20vh;
+    background-color: rgb(7, 0, 87);
+    position: absolute;
+    left: 45vw;
+    top: 40vh;
+    display: none;
+    grid-template-columns: auto auto;
+    padding-left: 4px;
+    padding-top: 4px;
+    /* display: grid; */
+}
+
+.detailscontainer div {
+    height: 5.5vh;
+    width: 9.5vh;
+    background-color: rgb(43, 35, 157);
+    color: antiquewhite;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: auto;
+}
+
+#FindPlace {
+    height: 4vh;
+    width: 25vw;
+    background-color: rgb(52, 166, 221);
+    ;
+    position: absolute;
+    left: 65vw;
+    top: 31.5vh;
+    display: inline-block;
+    border: dotted 2px rgb(10, 0, 87);
+    border-radius: 10vh;
+    z-index: 2;
+}
+
+#FindIcon {
+    height: 3vh;
+    width: 9vw;
+    position: relative;
+    top: 0.4vh;
+    left: 1vw;
+    display: inline-block;
+    background-image: url("/WETimages/search.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    /* background-color: beige; */
+}
+
+#Name {
+    position: relative;
+    bottom: 2.8vh;
+    left: 10vw;
+    font-weight: 600;
+}
+
+@keyframes SearchOpen {
+    0% {
+        height: 3vh;
+        width: 0vw;
+        position: absolute;
+        padding-left: 50px;
+        left: 31.5vh;
+        top: 67vw;
+        z-index: 1;
+        background-image: url("/WETimages/search.svg");
+        background-position: 1vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-size: 3vh;
+        font-weight: 600;
+        border: solid 3px black;
+        border-radius: 2vh;
+        display: inline-block;
+    }
+
+    25% {
+        height: 3vh;
+        width: 0vw;
+        position: absolute;
+        padding-left: 50px;
+        left: 31.5vh;
+        top: 58vw;
+        z-index: 1;
+        background-image: url("/WETimages/search.svg");
+        background-position: 1vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-size: 3vh;
+        font-weight: 600;
+        border: solid 3px black;
+        border-radius: 2vh;
+    }
+
+    50% {
+        height: 4vh;
+        width: 0vw;
+        position: absolute;
+        padding-left: 50px;
+        left: 31.5vh;
+        top: 50vw;
+        z-index: 1;
+        background-image: url("/WETimages/search.svg");
+        background-position: 1vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-size: 3vh;
+        font-weight: 600;
+        border: solid 3px black;
+        border-radius: 2vh;
+    }
+
+    75% {
+        height: 4vh;
+        width: 0vw;
+        position: absolute;
+        padding-left: 50px;
+        left: 20.5vh;
+        top: 46vw;
+        z-index: 1;
+        background-image: url("/WETimages/search.svg");
+        background-position: 1vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-size: 3vh;
+        font-weight: 600;
+        border: solid 3px black;
+        border-radius: 2vh;
+    }
+
+    100% {
+        height: 4vh;
+        width: 61vw;
+        position: absolute;
+        padding-left: 50px;
+        left: 6.5vh;
+        top: 46vw;
+        z-index: 1;
+        background-image: url("/WETimages/search.svg");
+        background-position: 1vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-size: 3vh;
+        font-weight: 600;
+        border: solid 3px black;
+        border-radius: 2vh;
+    }
+}
+
+@keyframes SearchClose {
+    0% {
+        height: 4vh;
+        width: 61vw;
+        position: absolute;
+        padding-left: 50px;
+        left: 6.5vh;
+        top: 46vw;
+        z-index: 1;
+        background-image: url("/WETimages/search.svg");
+        background-position: 1vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-size: 3vh;
+        font-weight: 600;
+        border: solid 3px black;
+        border-radius: 2vh;
+    }
+
+    25% {
+        height: 4vh;
+        width: 0vw;
+        position: absolute;
+        padding-left: 50px;
+        left: 20.5vh;
+        top: 46vw;
+        z-index: 1;
+        background-image: url("/WETimages/search.svg");
+        background-position: 1vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-size: 3vh;
+        font-weight: 600;
+        border: solid 3px black;
+        border-radius: 2vh;
+    }
+
+    75% {
+        height: 3vh;
+        width: 0vw;
+        position: absolute;
+        padding-left: 50px;
+        left: 31.5vh;
+        top: 58vw;
+        z-index: 1;
+        background-image: url("/WETimages/search.svg");
+        background-position: 1vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-size: 3vh;
+        font-weight: 600;
+        border: solid 3px black;
+        border-radius: 2vh;
+    }
+
+    50% {
+        height: 4vh;
+        width: 0vw;
+        position: absolute;
+        padding-left: 50px;
+        left: 31.5vh;
+        top: 50vw;
+        z-index: 1;
+        background-image: url("/WETimages/search.svg");
+        background-position: 1vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-size: 3vh;
+        font-weight: 600;
+        border: solid 3px black;
+        border-radius: 2vh;
+    }
+
+
+    100% {
+        height: 3vh;
+        width: 0vw;
+        position: absolute;
+        padding-left: 50px;
+        left: 31.5vh;
+        top: 67vw;
+        z-index: 1;
+        background-image: url("/WETimages/search.svg");
+        background-position: 1vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-size: 3vh;
+        font-weight: 600;
+        border: solid 3px black;
+        border-radius: 2vh;
+    }
+
+}
+
+.Sopen {
+    animation: SearchOpen 0.3s 1;
+}
+
+.Sclose {
+    animation: SearchClose 0.3s 1;
+}
+
+.MoreDetails {
+    height: 17vh;
+    width: 80vw;
+    background-color: rgb(36, 156, 236);
+    position: relative;
+    left: 10.5vw;
+    top: 9vh;
+    border-bottom-left-radius: 3vh;
+    border-bottom-right-radius: 3vh;
+    display: none;
+    /* border: solid 0px; */
+    /* display: grid; */
+    grid-template-columns: auto auto;
+    padding-left: 3px;
+    padding-top: 8px;
+}
+
+.MoreDetails div {
+    height: 7vh;
+    width: 38vw;
+    border: dotted 2px blueviolet;
+    background-color: rgb(0, 50, 187);
+    color: aliceblue;
+}
+
+#sunrise {
+    background-image: url("/WETimages/sunrise.svg");
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#sunrise h5 {
+    position: relative;
+    left: 20vw;
+}
+
+#sunrise p {
+    position: relative;
+    top: 1vh;
+    left: 14vw;
+}
+
+#sunset {
+    background-image: url("/WETimages/sunset.svg");
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#sunset h5 {
+    position: relative;
+    left: 20vw;
+}
+
+#sunset p {
+    position: relative;
+    top: 1vh;
+    left: 14vw;
+}
+#Humidity {
+    background-image: url("/WETimages/humidity.svg");
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 3vh;
+}
+#Humidity h5 {
+    position: relative;
+    left: 20vw;
+}
+
+#Humidity p {
+    position: relative;
+    top: 1vh;
+    left: 24vw;
+}
+#SeaLevel {
+    background-image: url("/WETimages/sea-level.svg");
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 3vh;
+}
+
+#SeaLevel h5 {
+    position: relative;
+    left: 20vw;
+}
+
+#SeaLevel p {
+    position: relative;
+    top: 1vh;
+    left: 21.5vw;
+}

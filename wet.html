@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="wet.css" rel="stylesheet">
+    <title>WeatherAPP</title>
+</head>
+<body>
+    <div id="FindPlace">
+        <div id="FindIcon"></div>
+        <p id="Name"></p>
+    </div>
+    <input type="text" id="cityname" placeholder="Search Your City">
+    <div id="CloudConsidtion"></div>
+    <div class="maintemp" id="temcontainer">
+        <div class="temp" id="temperature"></div>
+        <div  id="degree"></div>
+        <div class="tempemoji" id="Emoji"></div>
+    </div>
+    
+    <div class="detailscontainer" id="details">
+        <div id="max">
+            <h5 id="txtmax">Max-Temp</h5>
+            <p id="degmax"></p>
+        </div>
+        <div id="min">
+            <h5 id="txtmin">Min-temp</h5>
+            <p id="degmin"></p>
+        </div>
+        
+        <div id="Feelings">
+            <h5 id="txtfeel">Feels Like</h5>
+            <p id="degfeel"></p>
+        </div>
+        <div id="windSpeed">
+            <h6 id="txtspeed">Wind Speed</h6>
+            <p id="degspeed"></p>
+        </div>
+    </div>
+
+    <div class="MoreDetails" id="NewDetails">
+        <div id="sunrise">
+            <h5>Sunrise</h5>
+            <p></p>
+        </div>
+        <div id="sunset">
+            <h5>Sunset</h5>
+            <p></p>
+        </div>
+        <div id="Humidity">
+            <h5>Humidity</h5>
+            <p></p>
+        </div>
+        <div id="SeaLevel">
+            <h5>Sea Level</h5>
+            <p></p>
+        </div>
+    </div>
+</body>
+<script src="wet.js"></script>
+</html>
